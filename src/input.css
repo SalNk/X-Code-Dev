@@ -10,3 +10,13 @@
 .cards-price {
     height: 60vh;
 }
+.box-px{
+    padding-left: 0.5rem/* 8px */;
+    padding-right: 0.5rem/* 8px */;
+}
+@media (min-width: 640px) {
+    .box-px {
+        padding-left: 4rem/* 64px */;
+        padding-right: 4rem/* 64px */;
+    }
+}
